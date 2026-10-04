@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Chroma / vector database
+chroma_db/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+
+# Laravel
+vendor/
+fyp-frontend/vendor/
+
+# Laravel environment
+fyp-frontend/.env
+fyp-frontend/.env.*
+!fyp-frontend/.env.example
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Local / generated project data
+all_lecturers.csv
+lecturers_clean_2.csv
+lecturer_char_word_stats.csv
+embeddings.npy
+
+# Empty / unused file
+app.py
